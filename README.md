@@ -1,6 +1,6 @@
 # Agent Gov Graph website
 
-Static HTML, CSS and inline SVG. No framework, JavaScript runtime, package installation or compilation is required to serve the site.
+Static HTML, CSS and inline SVG. Inter is self-hosted in `assets/fonts/` under its included SIL Open Font License. No external font request is made. No framework, JavaScript runtime, package installation or compilation is required to serve the site.
 
 ## Local preview
 
@@ -22,7 +22,7 @@ For browser checks, use an existing Playwright installation (optional developmen
 PLAYWRIGHT_PATH=/absolute/path/to/playwright CHROME_PATH=/absolute/path/to/chrome node scripts/browser-check.cjs
 ```
 
-Run the preview server first. Browser checks cover 320, 390, 768, 1024 and 1440px layouts, anchor navigation, the background-page round trip, reduced motion and local request errors. Screenshots are saved in `validation/`. See `validation/REVIEW.md` for the design comparison and remaining differences.
+Run the preview server first. Browser checks cover 320, 375, 390, 430, 768, 1024 and 1440px layouts, connector endpoints, minimum 12px architecture text, 44px touch targets, anchor navigation, the background-page round trip, reduced motion and local request errors. Screenshots are saved in `validation/`. See `validation/REVIEW.md` for the design comparison and remaining differences.
 
 ## Release
 

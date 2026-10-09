@@ -2,6 +2,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
+import re
 ROOT = Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self, path):
@@ -28,4 +29,9 @@ for name,page in pages.items():
         if url.fragment: assert url.fragment in pages[target].ids, f'Missing anchor: {link}'
 assert 'Live positive control-effectiveness attestation has not been demonstrated.' in (ROOT/'index.html').read_text()
 assert 'https://github.com/datadownunda/agent-gov-graph' in pages['index.html'].links
+for css in ROOT.glob('*.css'):
+    for asset in re.findall(r'url\([\"\']?([^\"\')]+)', css.read_text()):
+        assert not urlsplit(asset).scheme, f'Unexpected external CSS asset: {asset}'
+        assert (ROOT/asset).is_file(), f'Missing CSS asset: {asset}'
+assert (ROOT/'assets/fonts/OFL.txt').is_file(), 'Missing self-hosted font license'
 print(f'PASS: {len(pages)} pages; local links, fragments, unique IDs, headings and claim boundary.')
