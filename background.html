@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Agent Gov Graph is an open-source research project exploring how companies can independently assure the control effectiveness of AI agents." />
+  <title>Project background | Agent Gov Graph</title>
+  <link rel="stylesheet" href="background.css" />
+</head>
+<body>
+<nav class="wrap"><a href="index.html">← Agent Gov Graph home</a><p>Historical project background. For current findings and capability limits, <a href="index.html#research">read the research status</a>. Live positive control-effectiveness attestation has not been demonstrated.</p></nav>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Open-source research project</p>
+      <h1>Agent Gov Graph</h1>
+      <p class="dek">Independent evidence for AI-agent control effectiveness.</p>
+      <p class="lede"><strong>Agent Gov Graph is trying to answer a simple question:</strong> when an AI agent does something, can a company prove it was allowed, controlled, and actually happened the way it says?</p>
+      <p class="actions"><a href="https://github.com/datadownunda/agent-gov-graph">View the repository</a></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Why this project exists</h2>
+      <p>Agent Gov Graph grew out of a recurring enterprise problem: the gap between what governance systems claim to know and what the underlying evidence can actually prove.</p>
+      <p>That gap was visible long before AI agents. Automated data-lineage tools repeatedly promised a scalable blueprint of how critical data moved across complex organizations. In practice, lineage was often harder than the promise suggested. Semantics differed across systems. Technical relationships changed. Identifiers were missing. Cross-system mappings became stale. Teams could produce diagrams that looked authoritative while the underlying evidence remained incomplete or ambiguous.</p>
+      <p>The lesson was not that lineage was useless. The lesson was that <strong>a representation is only as trustworthy as the evidence underneath it</strong>.</p>
+      <p>AI agents make the problem more urgent. An agent can interpret instructions, choose actions, call tools, affect enterprise systems, and sometimes act through delegated authority. A policy record or an agent trace alone cannot establish what actually happened.</p>
+      <p>Agent Gov Graph explores whether an evidence-first model can reconstruct that chain without repeating the data-lineage mistake: creating a neat map first and assuming the map is true.</p>
+    </section>
+
+    <section>
+      <h2>What Agent Gov Graph is trying to achieve</h2>
+      <p>AGG pulls together evidence about the agent, the authority that applied, governance decisions, human approvals where relevant, execution records, and what the target system independently observed.</p>
+      <p>Where the evidence is strong enough, AGG should say what the evidence supports. Where it is not, AGG should say exactly what is missing.</p>
+      <div class="flow" aria-label="Assurance flow">
+        <span>Authority</span><span>→</span>
+        <span>Governance decision</span><span>→</span>
+        <span>Execution</span><span>→</span>
+        <span>Target outcome</span><span>→</span>
+        <span>Evidence</span><span>→</span>
+        <span>Control finding</span>
+      </div>
+      <p>The project is deliberately narrow about what each record means. A governance decision is not execution. Execution is not outcome. A target-system outcome is not necessarily proof of downstream use. Correlation between two records is itself a claim that must be supported.</p>
+    </section>
+
+    <section>
+      <h2>What assurance functions increasingly need to reconstruct</h2>
+      <p>For regulated organizations, the direction of travel is toward being able to reconstruct and challenge questions such as:</p>
+      <ul>
+        <li><strong>Who or what was allowed to act?</strong></li>
+        <li><strong>What decision was made, and on what basis?</strong></li>
+        <li><strong>Was human approval obtained where required?</strong></li>
+        <li><strong>What did the agent actually do?</strong></li>
+        <li><strong>What happened in the target system?</strong></li>
+        <li><strong>Was the relevant control monitored and tested?</strong></li>
+        <li><strong>Are the records complete enough to reconstruct an incident?</strong></li>
+        <li><strong>Can independent review challenge the result?</strong></li>
+        <li><strong>What are the known limits and evidence gaps?</strong></li>
+      </ul>
+      <p>For banks, model-risk guidance already emphasizes governance, independent validation, ongoing monitoring, outcomes analysis, documentation, controls, accountability, and explicit treatment of limitations. AI-specific regulation is also becoming more explicit about logging and human oversight. The EU AI Act, for example, includes logging and human-oversight requirements for high-risk AI systems.</p>
+      <blockquote>
+        Auditors increasingly will not stop at “Do you have a policy?” The harder question is: <strong>show the evidence that the policy operated as intended, who approved what, what the agent did, and what actually happened.</strong>
+      </blockquote>
+      <p>That is the gap AGG is aimed at.</p>
+    </section>
+
+    <section>
+      <h2>Continuous assurance, without becoming the enforcement gateway</h2>
+      <p>AGG is intended to sit outside the execution path wherever possible. It does not need to block an agent in real time in order to provide fast post-facto assurance.</p>
+      <p>If continuously collected evidence is strong enough to establish a control exception, AGG should be able to notify the relevant team quickly, preserve the supporting evidence, and provide the starting point for investigation.</p>
+      <div class="flow stacked">
+        <span>Continuous evidence collection</span>
+        <span>↓</span>
+        <span>Evidence qualification</span>
+        <span>↓</span>
+        <span>Exception finding</span>
+        <span>↓</span>
+        <span>Alert / investigation</span>
+        <span>↓</span>
+        <span>Retained evidence</span>
+        <span>↓</span>
+        <span>Periodic assurance</span>
+      </div>
+      <p>This creates three time horizons from the same evidence layer:</p>
+      <ul>
+        <li><strong>Near real time:</strong> notify when the evidence sufficiently establishes an exception.</li>
+        <li><strong>Shortly after:</strong> support investigation and, eventually, bounded remediation or intervention analysis.</li>
+        <li><strong>Later:</strong> preserve the same evidence for incident reconstruction, audit, and periodic control attestation.</li>
+      </ul>
+      <p>The constraint matters: <strong>uncertainty should never be converted into an alert merely because an alert would be useful.</strong></p>
+    </section>
+
+    <section>
+      <h2>The hardest problem: proving that records belong to the same action</h2>
+      <p>Normalization is usually solvable. Missing identity is not.</p>
+      <p>If one system says <code>user_id</code>, another says <code>principal</code>, and another says <code>actor</code>, those fields can often be normalized. But if the systems never retained evidence showing that <em>this</em> policy decision corresponds to <em>this</em> execution and <em>this</em> target-system outcome, normalization cannot manufacture that relationship.</p>
+      <p>AGG experiments found that apparently sensible matching based on actor, action, resource, and timestamp could produce confidently wrong links under repetition, clock skew, and plausible impostors.</p>
+      <blockquote><strong>Mutual uniqueness is not identity.</strong></blockquote>
+      <p>That led to a core design decision: <strong>correlation itself must be treated as an evidentiary assertion</strong>, with its method, competing candidates, assumptions, coverage, and limitations preserved.</p>
+      <p>For assurance, the fallback is not “use fuzzier matching until something links.” The safer fallback is:</p>
+      <blockquote>
+        <strong>Correlation not established → control not evaluable → exact evidence gap → remediation option.</strong>
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>Three operating modes</h2>
+      <h3>A. Native assurance</h3>
+      <p>The existing systems already preserve defensible adjacent identifiers and sufficient evidence. AGG reads that evidence without asking the environment to manufacture AGG-specific telemetry.</p>
+
+      <h3>B. Evidence readiness + configuration remediation</h3>
+      <p>The evidence could exist, but it is not currently retained, propagated, or kept long enough. Examples include request identifiers that are discarded, disabled logging, missing approval references, or insufficient retention.</p>
+      <p>AGG should identify the exact gap and the minimum change required to make the control evaluable.</p>
+
+      <h3>C. Evidence creation required</h3>
+      <p>The underlying systems genuinely do not produce the relationship evidence needed for independent assurance. AGG should say so. The organization can accept the assurance gap or add the minimum necessary instrumentation.</p>
+      <blockquote><strong>Prefer native evidence. Require new evidence only when the assurance requirement cannot otherwise be met.</strong></blockquote>
+    </section>
+
+    <section>
+      <h2>Normalize to the claim, not to the source system</h2>
+      <p>AGG is not intended to build a universal enterprise canonical model. That risks repeating the data-lineage trap.</p>
+      <p>Instead, normalize only the semantics required to answer a specific assurance question. A payment-control claim may need fields such as:</p>
+      <pre><code>actor
+action
+resource
+amount
+decision
+approval
+execution identifier
+target identifier
+timestamp</code></pre>
+      <p>The original native record should remain preserved beside the normalized representation so the transformation itself can be audited.</p>
+    </section>
+
+    <section>
+      <h2>What the project has learned so far</h2>
+      <ul class="findings">
+        <li><strong>Self-derived evidence is not independent evidence.</strong> Two representations of the same transaction do not become independent merely because they are stored separately.</li>
+        <li><strong>Correlation is evidence, not plumbing.</strong> A weak join can turn a correct adjudicator into a confidently wrong assurance system.</li>
+        <li><strong>Current authority cannot explain historical decisions.</strong> Authority must be reconstructed as it applied at decision time.</li>
+        <li><strong>Delegation must narrow, not expand, authority.</strong> Delegation paths need explicit scope, validity, provenance, and failure conditions.</li>
+        <li><strong>Execution status is not target outcome.</strong> In one experiment, the client ultimately recorded failure after the target system had already served 168 bytes.</li>
+        <li><strong>Positive assurance is harder than finding an exception.</strong> One proven prohibited outcome can establish an exception; claiming that no prohibited outcome occurred requires adequate observation coverage.</li>
+        <li><strong>The adjudicator should be blind to the answer key.</strong> Scenario names, expected outcomes, bypass flags, and ground truth are excluded from the facts used to produce a finding.</li>
+        <li><strong>Relational semantics do not automatically justify a graph database.</strong> A preregistered experiment failed to show enough incremental value from a graph-specific representation to put Neo4j on the critical path.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What has not been proven</h2>
+      <p>AGG has demonstrated bounded parts of the evidence chain. It has <strong>not</strong> demonstrated that most enterprises retain enough native evidence to prove every control worked, or even that every control can be made continuously evaluable without additional instrumentation.</p>
+      <p>That uncertainty is not a side issue. It is one of the central research questions.</p>
+      <p>A future evidence-readiness view may classify controls along lines such as:</p>
+      <pre><code>EVALUABLE
+REMEDIABLE
+NOT EVALUABLE</code></pre>
+      <p>A bank discovering that only a portion of its agent controls can be independently assured is not necessarily a failure of AGG. It may be exactly the assurance gap that technology risk, internal audit, and control owners need to see.</p>
+    </section>
+
+    <section>
+      <h2>Manifesto</h2>
+      <ol class="manifesto">
+        <li>Prefer uncertainty to false certainty.</li>
+        <li>Prefer independent evidence to self-report.</li>
+        <li>Missing evidence is not evidence of absence.</li>
+        <li>Correlation is a claim, not a convenience.</li>
+        <li>Reconstruct authority at decision time.</li>
+        <li>Preserve disagreement between evidence sources.</li>
+        <li>Do not confuse governance, execution, and outcome.</li>
+        <li>Abstain when linkage is too weak to support assurance.</li>
+        <li>Keep assurance outside the execution path where possible.</li>
+        <li>Use native enterprise evidence before inventing new telemetry.</li>
+        <li>Normalize only what the assurance claim requires.</li>
+        <li>Preserve original evidence beside normalized representations.</li>
+        <li>Do not add infrastructure until the evidence earns it.</li>
+        <li>Let experiments falsify preferred architecture.</li>
+        <li>State plainly what cannot be concluded.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Current research direction</h2>
+      <p>The next work is deliberately focused on the weakest remaining assumptions:</p>
+      <ul>
+        <li>Can AGG support a defensible downstream conclusion when independent systems do not share a native transaction identifier?</li>
+        <li>Can the same logic survive evidence formats AGG did not design?</li>
+        <li>Can observation coverage itself be independently substantiated rather than accepted as an operator declaration?</li>
+        <li>Can action-level findings eventually support a defensible population- and period-level assurance view?</li>
+      </ul>
+    </section>
+
+    <section class="sources">
+      <h2>Selected external references</h2>
+      <p>These references provide regulatory and supervisory context; they do not imply that existing model-risk rules apply identically to every AI-agent use case.</p>
+      <ul>
+        <li><a href="https://www.federalreserve.gov/frrs/guidance/supervisory-guidance-on-model-risk-management.htm">Federal Reserve — Supervisory Guidance on Model Risk Management</a></li>
+        <li><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng">European Union — AI Act (Regulation (EU) 2024/1689)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><a href="https://github.com/datadownunda/agent-gov-graph">Agent Gov Graph repository</a></p>
+    </div>
+  </footer>
+</body>
+</html>

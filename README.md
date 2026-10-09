@@ -1,19 +1,29 @@
 # Agent Gov Graph website
 
-Minimal static website for Agent Gov Graph.
+Static HTML, CSS and inline SVG. No framework, JavaScript runtime, package installation or compilation is required to serve the site.
 
-## Files
+## Local preview
 
-- `index.html`
-- `styles.css`
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1
+```
 
-## Publish with GitHub Pages
+Open http://127.0.0.1:8765. The original project background and reference links remain at `background.html`.
 
-1. Create a public GitHub repository for the site.
-2. Add `index.html` and `styles.css` at the repository root.
-3. In GitHub: **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and `/ (root)`.
-6. Save. GitHub will provide the public URL.
+## Validation
 
-No framework, build process, CMS, analytics, or JavaScript is required.
+```sh
+python3 scripts/validate.py
+```
+
+For browser checks, use an existing Playwright installation (optional development tooling only):
+
+```sh
+PLAYWRIGHT_PATH=/absolute/path/to/playwright CHROME_PATH=/absolute/path/to/chrome node scripts/browser-check.cjs
+```
+
+Run the preview server first. Browser checks cover 320, 390, 768, 1024 and 1440px layouts, anchor navigation, the background-page round trip, reduced motion and local request errors. Screenshots are saved in `validation/`. See `validation/REVIEW.md` for the design comparison and remaining differences.
+
+## Release
+
+The repository uses GitHub Pages from `main`, root directory. Review the redesign through its pull request. Merge and deployment require owner approval; this branch does not change publishing configuration. The static files themselves are the build output.

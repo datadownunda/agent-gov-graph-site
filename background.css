@@ -1,0 +1,128 @@
+:root {
+  --text: #111;
+  --muted: #555;
+  --line: #d9d9d9;
+  --paper: #fff;
+  --code: #f4f4f4;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.62;
+}
+
+.wrap {
+  width: min(860px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 72px 0 44px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 { font-size: clamp(38px, 6vw, 64px); margin: 0 0 10px; }
+h2 { font-size: 28px; margin: 0 0 18px; }
+h3 { font-size: 20px; margin-top: 28px; }
+
+.dek {
+  margin: 0 0 28px;
+  font-size: 22px;
+  color: var(--muted);
+}
+
+.lede {
+  font-size: 24px;
+  line-height: 1.45;
+}
+
+.actions { margin-top: 28px; }
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+
+main section {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+p { margin: 0 0 18px; }
+ul, ol { padding-left: 26px; }
+li { margin: 0 0 10px; }
+
+blockquote {
+  margin: 28px 0;
+  padding: 0 0 0 20px;
+  border-left: 3px solid #111;
+  font-size: 21px;
+}
+
+.flow {
+  margin: 28px 0;
+  padding: 20px;
+  border: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 15px;
+}
+
+.flow.stacked {
+  display: grid;
+  justify-items: start;
+  width: fit-content;
+  min-width: min(100%, 420px);
+}
+
+pre {
+  overflow-x: auto;
+  padding: 18px;
+  background: var(--code);
+  border: 1px solid var(--line);
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: .9em;
+}
+
+.findings li { margin-bottom: 16px; }
+.manifesto li { margin-bottom: 9px; }
+.sources { font-size: 16px; }
+
+.site-footer {
+  padding: 32px 0 56px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  .site-header { padding-top: 48px; }
+  main section { padding: 36px 0; }
+  .lede { font-size: 21px; }
+}
