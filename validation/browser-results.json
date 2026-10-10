@@ -1,0 +1,1789 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "overflow": false,
+      "core": {
+        "left": 20,
+        "right": 300,
+        "top": 1029.09375,
+        "bottom": 1133.09375,
+        "width": 280,
+        "height": 104
+      },
+      "cards": [
+        {
+          "left": 44,
+          "right": 300,
+          "top": 693.09375,
+          "bottom": 789.09375,
+          "width": 256,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 300,
+          "top": 801.09375,
+          "bottom": 897.09375,
+          "width": 256,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 300,
+          "top": 909.09375,
+          "bottom": 1005.09375,
+          "width": 256,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 300,
+          "top": 1157.09375,
+          "bottom": 1253.09375,
+          "width": 256,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 300,
+          "top": 1265.09375,
+          "bottom": 1361.09375,
+          "width": 256,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 300,
+          "top": 1373.09375,
+          "bottom": 1469.09375,
+          "width": 256,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 16,
+          "right": 204.234375,
+          "top": 20,
+          "bottom": 64,
+          "width": 188.234375,
+          "height": 44
+        },
+        {
+          "text": "About",
+          "left": 16,
+          "right": 53.359375,
+          "top": 78,
+          "bottom": 122,
+          "width": 37.359375,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 70.359375,
+          "right": 147.046875,
+          "top": 78,
+          "bottom": 122,
+          "width": 76.6875,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 164.046875,
+          "right": 230.328125,
+          "top": 78,
+          "bottom": 122,
+          "width": 66.28125,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 16,
+          "right": 74.140625,
+          "top": 122,
+          "bottom": 166,
+          "width": 58.140625,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 91.140625,
+          "right": 162.703125,
+          "top": 122,
+          "bottom": 166,
+          "width": 71.5625,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 212.234375,
+          "right": 304,
+          "top": 20,
+          "bottom": 64,
+          "width": 91.765625,
+          "height": 44
+        },
+        {
+          "text": "Learn More",
+          "left": 20,
+          "right": 132.578125,
+          "top": 543.09375,
+          "bottom": 591.09375,
+          "width": 112.578125,
+          "height": 48
+        },
+        {
+          "text": "View on GitHub",
+          "left": 20,
+          "right": 197.65625,
+          "top": 603.09375,
+          "bottom": 651.09375,
+          "width": 177.65625,
+          "height": 48
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 22,
+          "right": 243.96875,
+          "top": 7425.53125,
+          "bottom": 7473.53125,
+          "width": 221.96875,
+          "height": 48
+        },
+        {
+          "text": "Explore the Project",
+          "left": 22,
+          "right": 222.3125,
+          "top": 7959.34375,
+          "bottom": 8007.34375,
+          "width": 200.3125,
+          "height": 48
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 22,
+          "right": 188.515625,
+          "top": 8019.34375,
+          "bottom": 8067.34375,
+          "width": 166.515625,
+          "height": 48
+        }
+      ],
+      "heading": {
+        "left": 20,
+        "right": 300,
+        "top": 251,
+        "bottom": 315.9375,
+        "width": 280,
+        "height": 64.9375
+      },
+      "hero": {
+        "left": 0,
+        "right": 320,
+        "top": 176,
+        "bottom": 1529.09375,
+        "width": 320,
+        "height": 1353.09375
+      },
+      "strip": {
+        "left": 0,
+        "right": 320,
+        "top": 1529.09375,
+        "bottom": 1830.28125,
+        "width": 320,
+        "height": 301.1875
+      },
+      "fontLoaded": true
+    },
+    {
+      "width": 375,
+      "overflow": false,
+      "core": {
+        "left": 20,
+        "right": 355,
+        "top": 951.625,
+        "bottom": 1055.625,
+        "width": 335,
+        "height": 104
+      },
+      "cards": [
+        {
+          "left": 44,
+          "right": 355,
+          "top": 615.625,
+          "bottom": 711.625,
+          "width": 311,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 355,
+          "top": 723.625,
+          "bottom": 819.625,
+          "width": 311,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 355,
+          "top": 831.625,
+          "bottom": 927.625,
+          "width": 311,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 355,
+          "top": 1079.625,
+          "bottom": 1175.625,
+          "width": 311,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 355,
+          "top": 1187.625,
+          "bottom": 1283.625,
+          "width": 311,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 355,
+          "top": 1295.625,
+          "bottom": 1391.625,
+          "width": 311,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 20,
+          "right": 249.234375,
+          "top": 20,
+          "bottom": 64,
+          "width": 229.234375,
+          "height": 44
+        },
+        {
+          "text": "About",
+          "left": 20,
+          "right": 57.359375,
+          "top": 78,
+          "bottom": 122,
+          "width": 37.359375,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 77.359375,
+          "right": 154.046875,
+          "top": 78,
+          "bottom": 122,
+          "width": 76.6875,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 174.046875,
+          "right": 240.328125,
+          "top": 78,
+          "bottom": 122,
+          "width": 66.28125,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 260.328125,
+          "right": 318.46875,
+          "top": 78,
+          "bottom": 122,
+          "width": 58.140625,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 20,
+          "right": 91.5625,
+          "top": 122,
+          "bottom": 166,
+          "width": 71.5625,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 257.234375,
+          "right": 355,
+          "top": 20,
+          "bottom": 64,
+          "width": 97.765625,
+          "height": 44
+        },
+        {
+          "text": "Learn More",
+          "left": 20,
+          "right": 132.578125,
+          "top": 525.625,
+          "bottom": 573.625,
+          "width": 112.578125,
+          "height": 48
+        },
+        {
+          "text": "View on GitHub",
+          "left": 144.578125,
+          "right": 322.234375,
+          "top": 525.625,
+          "bottom": 573.625,
+          "width": 177.65625,
+          "height": 48
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 22,
+          "right": 243.96875,
+          "top": 6598.984375,
+          "bottom": 6646.984375,
+          "width": 221.96875,
+          "height": 48
+        },
+        {
+          "text": "Explore the Project",
+          "left": 22,
+          "right": 222.3125,
+          "top": 7105.609375,
+          "bottom": 7153.609375,
+          "width": 200.3125,
+          "height": 48
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 22,
+          "right": 188.515625,
+          "top": 7165.609375,
+          "bottom": 7213.609375,
+          "width": 166.515625,
+          "height": 48
+        }
+      ],
+      "heading": {
+        "left": 20,
+        "right": 355,
+        "top": 251,
+        "bottom": 324.0625,
+        "width": 335,
+        "height": 73.0625
+      },
+      "hero": {
+        "left": 0,
+        "right": 375,
+        "top": 176,
+        "bottom": 1451.625,
+        "width": 375,
+        "height": 1275.625
+      },
+      "strip": {
+        "left": 0,
+        "right": 375,
+        "top": 1451.625,
+        "bottom": 1741.609375,
+        "width": 375,
+        "height": 289.984375
+      },
+      "fontLoaded": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "core": {
+        "left": 20,
+        "right": 370,
+        "top": 954.5625,
+        "bottom": 1058.5625,
+        "width": 350,
+        "height": 104
+      },
+      "cards": [
+        {
+          "left": 44,
+          "right": 370,
+          "top": 618.5625,
+          "bottom": 714.5625,
+          "width": 326,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 370,
+          "top": 726.5625,
+          "bottom": 822.5625,
+          "width": 326,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 370,
+          "top": 834.5625,
+          "bottom": 930.5625,
+          "width": 326,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 370,
+          "top": 1082.5625,
+          "bottom": 1178.5625,
+          "width": 326,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 370,
+          "top": 1190.5625,
+          "bottom": 1286.5625,
+          "width": 326,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 370,
+          "top": 1298.5625,
+          "bottom": 1394.5625,
+          "width": 326,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 20,
+          "right": 264.234375,
+          "top": 20,
+          "bottom": 64,
+          "width": 244.234375,
+          "height": 44
+        },
+        {
+          "text": "About",
+          "left": 20,
+          "right": 57.359375,
+          "top": 78,
+          "bottom": 122,
+          "width": 37.359375,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 77.359375,
+          "right": 154.046875,
+          "top": 78,
+          "bottom": 122,
+          "width": 76.6875,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 174.046875,
+          "right": 240.328125,
+          "top": 78,
+          "bottom": 122,
+          "width": 66.28125,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 260.328125,
+          "right": 318.46875,
+          "top": 78,
+          "bottom": 122,
+          "width": 58.140625,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 20,
+          "right": 91.5625,
+          "top": 122,
+          "bottom": 166,
+          "width": 71.5625,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 272.234375,
+          "right": 370,
+          "top": 20,
+          "bottom": 64,
+          "width": 97.765625,
+          "height": 44
+        },
+        {
+          "text": "Learn More",
+          "left": 20,
+          "right": 132.578125,
+          "top": 528.5625,
+          "bottom": 576.5625,
+          "width": 112.578125,
+          "height": 48
+        },
+        {
+          "text": "View on GitHub",
+          "left": 144.578125,
+          "right": 322.234375,
+          "top": 528.5625,
+          "bottom": 576.5625,
+          "width": 177.65625,
+          "height": 48
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 22,
+          "right": 243.96875,
+          "top": 6371.203125,
+          "bottom": 6419.203125,
+          "width": 221.96875,
+          "height": 48
+        },
+        {
+          "text": "Explore the Project",
+          "left": 22,
+          "right": 222.3125,
+          "top": 6855.734375,
+          "bottom": 6903.734375,
+          "width": 200.3125,
+          "height": 48
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 22,
+          "right": 188.515625,
+          "top": 6915.734375,
+          "bottom": 6963.734375,
+          "width": 166.515625,
+          "height": 48
+        }
+      ],
+      "heading": {
+        "left": 20,
+        "right": 370,
+        "top": 251,
+        "bottom": 327,
+        "width": 350,
+        "height": 76
+      },
+      "hero": {
+        "left": 0,
+        "right": 390,
+        "top": 176,
+        "bottom": 1454.5625,
+        "width": 390,
+        "height": 1278.5625
+      },
+      "strip": {
+        "left": 0,
+        "right": 390,
+        "top": 1454.5625,
+        "bottom": 1691.75,
+        "width": 390,
+        "height": 237.1875
+      },
+      "fontLoaded": true
+    },
+    {
+      "width": 430,
+      "overflow": false,
+      "core": {
+        "left": 20,
+        "right": 410,
+        "top": 936.75,
+        "bottom": 1040.75,
+        "width": 390,
+        "height": 104
+      },
+      "cards": [
+        {
+          "left": 44,
+          "right": 410,
+          "top": 600.75,
+          "bottom": 696.75,
+          "width": 366,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 410,
+          "top": 708.75,
+          "bottom": 804.75,
+          "width": 366,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 410,
+          "top": 816.75,
+          "bottom": 912.75,
+          "width": 366,
+          "height": 96,
+          "bottomRow": false,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 410,
+          "top": 1064.75,
+          "bottom": 1160.75,
+          "width": 366,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 410,
+          "top": 1172.75,
+          "bottom": 1268.75,
+          "width": 366,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        },
+        {
+          "left": 44,
+          "right": 410,
+          "top": 1280.75,
+          "bottom": 1376.75,
+          "width": 366,
+          "height": 96,
+          "bottomRow": true,
+          "connectorHeight": 5,
+          "connectorLeft": -17,
+          "connectorWidth": 17,
+          "fontSizes": [
+            16,
+            13
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 20,
+          "right": 304.234375,
+          "top": 20,
+          "bottom": 64,
+          "width": 284.234375,
+          "height": 44
+        },
+        {
+          "text": "About",
+          "left": 20,
+          "right": 57.359375,
+          "top": 78,
+          "bottom": 122,
+          "width": 37.359375,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 77.359375,
+          "right": 154.046875,
+          "top": 78,
+          "bottom": 122,
+          "width": 76.6875,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 174.046875,
+          "right": 240.328125,
+          "top": 78,
+          "bottom": 122,
+          "width": 66.28125,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 260.328125,
+          "right": 318.46875,
+          "top": 78,
+          "bottom": 122,
+          "width": 58.140625,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 20,
+          "right": 91.5625,
+          "top": 122,
+          "bottom": 166,
+          "width": 71.5625,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 312.234375,
+          "right": 410,
+          "top": 20,
+          "bottom": 64,
+          "width": 97.765625,
+          "height": 44
+        },
+        {
+          "text": "Learn More",
+          "left": 20,
+          "right": 132.578125,
+          "top": 510.75,
+          "bottom": 558.75,
+          "width": 112.578125,
+          "height": 48
+        },
+        {
+          "text": "View on GitHub",
+          "left": 144.578125,
+          "right": 322.234375,
+          "top": 510.75,
+          "bottom": 558.75,
+          "width": 177.65625,
+          "height": 48
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 22,
+          "right": 243.96875,
+          "top": 6080.109375,
+          "bottom": 6128.109375,
+          "width": 221.96875,
+          "height": 48
+        },
+        {
+          "text": "Explore the Project",
+          "left": 22,
+          "right": 222.3125,
+          "top": 6529.84375,
+          "bottom": 6577.84375,
+          "width": 200.3125,
+          "height": 48
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 234.3125,
+          "right": 400.828125,
+          "top": 6529.84375,
+          "bottom": 6577.84375,
+          "width": 166.515625,
+          "height": 48
+        }
+      ],
+      "heading": {
+        "left": 20,
+        "right": 410,
+        "top": 251,
+        "bottom": 334.78125,
+        "width": 390,
+        "height": 83.78125
+      },
+      "hero": {
+        "left": 0,
+        "right": 430,
+        "top": 176,
+        "bottom": 1436.75,
+        "width": 430,
+        "height": 1260.75
+      },
+      "strip": {
+        "left": 0,
+        "right": 430,
+        "top": 1436.75,
+        "bottom": 1673.9375,
+        "width": 430,
+        "height": 237.1875
+      },
+      "fontLoaded": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "core": {
+        "left": 142,
+        "right": 606,
+        "top": 884.5625,
+        "bottom": 998.5625,
+        "width": 464,
+        "height": 114
+      },
+      "cards": [
+        {
+          "left": 74,
+          "right": 258,
+          "top": 672.5625,
+          "bottom": 832.5625,
+          "width": 184,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 276,
+          "right": 460,
+          "top": 672.5625,
+          "bottom": 832.5625,
+          "width": 184,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 478,
+          "right": 662,
+          "top": 672.5625,
+          "bottom": 832.5625,
+          "width": 184,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 74,
+          "right": 258,
+          "top": 1060.5625,
+          "bottom": 1220.5625,
+          "width": 184,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 276,
+          "right": 460,
+          "top": 1060.5625,
+          "bottom": 1220.5625,
+          "width": 184,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 478,
+          "right": 694,
+          "top": 1060.5625,
+          "bottom": 1220.5625,
+          "width": 216,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 107,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 30,
+          "right": 513.671875,
+          "top": 29,
+          "bottom": 73,
+          "width": 483.671875,
+          "height": 44
+        },
+        {
+          "text": "About",
+          "left": 30,
+          "right": 70.234375,
+          "top": 95,
+          "bottom": 139,
+          "width": 40.234375,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 163.765625,
+          "right": 246.34375,
+          "top": 95,
+          "bottom": 139,
+          "width": 82.578125,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 339.875,
+          "right": 411.265625,
+          "top": 95,
+          "bottom": 139,
+          "width": 71.390625,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 504.78125,
+          "right": 567.390625,
+          "top": 95,
+          "bottom": 139,
+          "width": 62.609375,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 660.921875,
+          "right": 738,
+          "top": 95,
+          "bottom": 139,
+          "width": 77.078125,
+          "height": 44
+        },
+        {
+          "text": "Agent Gov Graph on GitHub",
+          "left": 531.671875,
+          "right": 575.671875,
+          "top": 29,
+          "bottom": 73,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 600.671875,
+          "right": 738,
+          "top": 25,
+          "bottom": 77,
+          "width": 137.328125,
+          "height": 52
+        },
+        {
+          "text": "Learn More",
+          "left": 44,
+          "right": 233,
+          "top": 558.5625,
+          "bottom": 622.5625,
+          "width": 189,
+          "height": 64
+        },
+        {
+          "text": "View on GitHub",
+          "left": 253,
+          "right": 505.359375,
+          "top": 558.5625,
+          "bottom": 622.5625,
+          "width": 252.359375,
+          "height": 64
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 30,
+          "right": 337.234375,
+          "top": 5349.84375,
+          "bottom": 5413.84375,
+          "width": 307.234375,
+          "height": 64
+        },
+        {
+          "text": "Explore the Project",
+          "left": 30,
+          "right": 310.828125,
+          "top": 5821.015625,
+          "bottom": 5885.015625,
+          "width": 280.828125,
+          "height": 64
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 330.828125,
+          "right": 567.765625,
+          "top": 5821.015625,
+          "bottom": 5885.015625,
+          "width": 236.9375,
+          "height": 64
+        }
+      ],
+      "heading": {
+        "left": 44,
+        "right": 724,
+        "top": 244,
+        "bottom": 366.375,
+        "width": 680,
+        "height": 122.375
+      },
+      "hero": {
+        "left": 0,
+        "right": 768,
+        "top": 151,
+        "bottom": 1290.5625,
+        "width": 768,
+        "height": 1139.5625
+      },
+      "strip": {
+        "left": 0,
+        "right": 768,
+        "top": 1290.5625,
+        "bottom": 1522.5625,
+        "width": 768,
+        "height": 232
+      },
+      "fontLoaded": true
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "core": {
+        "left": 579.984375,
+        "right": 940,
+        "top": 353,
+        "bottom": 467,
+        "width": 360.015625,
+        "height": 114
+      },
+      "cards": [
+        {
+          "left": 539.984375,
+          "right": 665.3125,
+          "top": 141,
+          "bottom": 301,
+          "width": 125.328125,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 61.6562,
+          "connectorWidth": 5,
+          "fontSizes": [
+            15,
+            12
+          ],
+          "fits": true
+        },
+        {
+          "left": 683.3125,
+          "right": 808.65625,
+          "top": 141,
+          "bottom": 301,
+          "width": 125.34375,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 61.6719,
+          "connectorWidth": 5,
+          "fontSizes": [
+            15,
+            12
+          ],
+          "fits": true
+        },
+        {
+          "left": 826.65625,
+          "right": 951.984375,
+          "top": 141,
+          "bottom": 301,
+          "width": 125.328125,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 61.6562,
+          "connectorWidth": 5,
+          "fontSizes": [
+            15,
+            12
+          ],
+          "fits": true
+        },
+        {
+          "left": 539.984375,
+          "right": 665.3125,
+          "top": 529,
+          "bottom": 689,
+          "width": 125.328125,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 61.6562,
+          "connectorWidth": 5,
+          "fontSizes": [
+            15,
+            12
+          ],
+          "fits": true
+        },
+        {
+          "left": 683.3125,
+          "right": 808.65625,
+          "top": 529,
+          "bottom": 689,
+          "width": 125.34375,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 61.6719,
+          "connectorWidth": 5,
+          "fontSizes": [
+            15,
+            12
+          ],
+          "fits": true
+        },
+        {
+          "left": 826.65625,
+          "right": 983.984375,
+          "top": 529,
+          "bottom": 689,
+          "width": 157.328125,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 77.6562,
+          "connectorWidth": 5,
+          "fontSizes": [
+            15,
+            12
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 40,
+          "right": 292.984375,
+          "top": 31.5,
+          "bottom": 80.5,
+          "width": 252.984375,
+          "height": 49
+        },
+        {
+          "text": "About",
+          "left": 312.984375,
+          "right": 350.34375,
+          "top": 34,
+          "bottom": 78,
+          "width": 37.359375,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 372.34375,
+          "right": 449.03125,
+          "top": 34,
+          "bottom": 78,
+          "width": 76.6875,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 471.03125,
+          "right": 537.3125,
+          "top": 34,
+          "bottom": 78,
+          "width": 66.28125,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 559.3125,
+          "right": 617.453125,
+          "top": 34,
+          "bottom": 78,
+          "width": 58.140625,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 639.453125,
+          "right": 711.015625,
+          "top": 34,
+          "bottom": 78,
+          "width": 71.5625,
+          "height": 44
+        },
+        {
+          "text": "Agent Gov Graph on GitHub",
+          "left": 786.671875,
+          "right": 830.671875,
+          "top": 34,
+          "bottom": 78,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 846.671875,
+          "right": 984,
+          "top": 30,
+          "bottom": 82,
+          "width": 137.328125,
+          "height": 52
+        },
+        {
+          "text": "Learn More",
+          "left": 40,
+          "right": 190,
+          "top": 552.203125,
+          "bottom": 616.203125,
+          "width": 150,
+          "height": 64
+        },
+        {
+          "text": "View on GitHub",
+          "left": 210,
+          "right": 424.609375,
+          "top": 552.203125,
+          "bottom": 616.203125,
+          "width": 214.609375,
+          "height": 64
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 40,
+          "right": 298.8125,
+          "top": 3926.34375,
+          "bottom": 3990.34375,
+          "width": 258.8125,
+          "height": 64
+        },
+        {
+          "text": "Explore the Project",
+          "left": 40,
+          "right": 280.21875,
+          "top": 4397.515625,
+          "bottom": 4461.515625,
+          "width": 240.21875,
+          "height": 64
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 300.21875,
+          "right": 496.09375,
+          "top": 4397.515625,
+          "bottom": 4461.515625,
+          "width": 195.875,
+          "height": 64
+        }
+      ],
+      "heading": {
+        "left": 40,
+        "right": 511.984375,
+        "top": 256.78125,
+        "bottom": 349.65625,
+        "width": 471.984375,
+        "height": 92.875
+      },
+      "hero": {
+        "left": 0,
+        "right": 1024,
+        "top": 112,
+        "bottom": 758,
+        "width": 1024,
+        "height": 646
+      },
+      "strip": {
+        "left": 0,
+        "right": 1024,
+        "top": 758,
+        "bottom": 912,
+        "width": 1024,
+        "height": 154
+      },
+      "fontLoaded": true
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "core": {
+        "left": 825.984375,
+        "right": 1289.984375,
+        "top": 353,
+        "bottom": 467,
+        "width": 464,
+        "height": 114
+      },
+      "cards": [
+        {
+          "left": 757.984375,
+          "right": 941.984375,
+          "top": 141,
+          "bottom": 301,
+          "width": 184,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 959.984375,
+          "right": 1143.984375,
+          "top": 141,
+          "bottom": 301,
+          "width": 184,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 1161.984375,
+          "right": 1345.984375,
+          "top": 141,
+          "bottom": 301,
+          "width": 184,
+          "height": 160,
+          "bottomRow": false,
+          "connectorHeight": 54,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 757.984375,
+          "right": 941.984375,
+          "top": 529,
+          "bottom": 689,
+          "width": 184,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 959.984375,
+          "right": 1143.984375,
+          "top": 529,
+          "bottom": 689,
+          "width": 184,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 91,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        },
+        {
+          "left": 1161.984375,
+          "right": 1377.984375,
+          "top": 529,
+          "bottom": 689,
+          "width": 216,
+          "height": 160,
+          "bottomRow": true,
+          "connectorHeight": 64,
+          "connectorLeft": 107,
+          "connectorWidth": 5,
+          "fontSizes": [
+            18,
+            15
+          ],
+          "fits": true
+        }
+      ],
+      "targets": [
+        {
+          "text": "Agent Gov Graph",
+          "left": 62,
+          "right": 439.78125,
+          "top": 31.5,
+          "bottom": 80.5,
+          "width": 377.78125,
+          "height": 49
+        },
+        {
+          "text": "About",
+          "left": 469.78125,
+          "right": 512.734375,
+          "top": 34,
+          "bottom": 78,
+          "width": 42.953125,
+          "height": 44
+        },
+        {
+          "text": "Architecture",
+          "left": 548.734375,
+          "right": 636.875,
+          "top": 34,
+          "bottom": 78,
+          "width": 88.140625,
+          "height": 44
+        },
+        {
+          "text": "Use Cases",
+          "left": 672.875,
+          "right": 749.0625,
+          "top": 34,
+          "bottom": 78,
+          "width": 76.1875,
+          "height": 44
+        },
+        {
+          "text": "Research",
+          "left": 785.0625,
+          "right": 851.875,
+          "top": 34,
+          "bottom": 78,
+          "width": 66.8125,
+          "height": 44
+        },
+        {
+          "text": "Community",
+          "left": 887.875,
+          "right": 970.21875,
+          "top": 34,
+          "bottom": 78,
+          "width": 82.34375,
+          "height": 44
+        },
+        {
+          "text": "Agent Gov Graph on GitHub",
+          "left": 1171.671875,
+          "right": 1215.671875,
+          "top": 34,
+          "bottom": 78,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "Get Involved",
+          "left": 1240.671875,
+          "right": 1378,
+          "top": 30,
+          "bottom": 82,
+          "width": 137.328125,
+          "height": 52
+        },
+        {
+          "text": "Learn More",
+          "left": 62,
+          "right": 251,
+          "top": 571.796875,
+          "bottom": 635.796875,
+          "width": 189,
+          "height": 64
+        },
+        {
+          "text": "View on GitHub",
+          "left": 271,
+          "right": 523.359375,
+          "top": 571.796875,
+          "bottom": 635.796875,
+          "width": 252.359375,
+          "height": 64
+        },
+        {
+          "text": "Discuss research on GitHub",
+          "left": 135,
+          "right": 442.234375,
+          "top": 3736.21875,
+          "bottom": 3800.21875,
+          "width": 307.234375,
+          "height": 64
+        },
+        {
+          "text": "Explore the Project",
+          "left": 135,
+          "right": 415.828125,
+          "top": 4207.390625,
+          "bottom": 4271.390625,
+          "width": 280.828125,
+          "height": 64
+        },
+        {
+          "text": "Join the Discussion",
+          "left": 435.828125,
+          "right": 672.765625,
+          "top": 4207.390625,
+          "bottom": 4271.390625,
+          "width": 236.9375,
+          "height": 64
+        }
+      ],
+      "heading": {
+        "left": 62,
+        "right": 724.625,
+        "top": 237.203125,
+        "bottom": 379.609375,
+        "width": 662.625,
+        "height": 142.40625
+      },
+      "hero": {
+        "left": 0,
+        "right": 1440,
+        "top": 112,
+        "bottom": 758,
+        "width": 1440,
+        "height": 646
+      },
+      "strip": {
+        "left": 0,
+        "right": 1440,
+        "top": 758,
+        "bottom": 912,
+        "width": 1440,
+        "height": 154
+      },
+      "fontLoaded": true
+    }
+  ],
+  "errors": []
+}
