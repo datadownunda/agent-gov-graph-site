@@ -1,5 +1,15 @@
 # Concept 1: final refinement review
 
+## Icon-only correction, 2026-10-10
+
+[Original mockup and corrected icon close-ups](icon-corrections.png)
+
+Replaced the intricate brand mark with a simple three-node connected-evidence symbol, consistently in the header, footer and favicon. Existing SVG dimensions, styling and wordmark alignment are unchanged.
+
+Rebuilt the central diagram triangle with node centers `(12, 5.071797)`, `(4, 18.928203)` and `(20, 18.928203)`. All circles have radius `2.75`; the three sides measure 16 SVG units within 0.000001-unit rounding tolerance. The upper node sits above the exact lower-node midpoint, both lower nodes share a baseline, and the complete stroked geometry fits symmetrically within the existing 24 × 24 viewBox. Lines join the centers and are drawn behind the circles. Existing blue strokes and pale-blue central-node fills are preserved.
+
+Validation: static checks, all seven existing browser viewport checks, desktop/mobile icon inspection and direct mockup comparison passed. Before/after screenshot pixel comparison confirmed no change outside the header, central and footer icon bounds on desktop and mobile. Only the intended SVG contents and favicon changed in the website; CSS, text, layout and other components are unchanged. Screenshots and the comparison image below have been refreshed.
+
 ## Direct comparison
 
 ![Concept 1 alongside the refined implementation](concept-1-comparison.png)
