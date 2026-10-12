@@ -272,3 +272,7 @@ footer .icon {
   .feature { transform: translateY(-8px); }
   .graph-core > div { transform: translateY(-3px); }
 }
+
+/* Supplied explainer sits directly beneath the About section divider. */
+.explainer { margin: 0; }
+.explainer img { display: block; width: 100%; height: auto; }
